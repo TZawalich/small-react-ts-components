@@ -1,0 +1,60 @@
+.infoPanel,
+.infoPanelCollapse {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 20px auto;
+    border-radius: 16px;
+    overflow: hidden
+}
+
+.infoTitle {
+    padding: 0 16px;
+}
+
+.infoTitleCollapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px;
+    align-items: center;
+}
+
+
+.infoTitle h2,
+.infoTitleCollapse h2 {
+    font-size: 1rem;
+    margin: 8px 0;
+}
+
+.infoContent, .infoContentCollapse {
+    padding: 16px;
+    padding-top: 0;
+}
+
+/* .infoContentCollapse {
+    padding: 16px;
+    max-height: 0;
+    transition: all .5s ease;
+    overflow: hidden;
+} */
+
+/* .infoContentCollapseOpen {
+    padding: 16px;
+    max-height: 20vh;
+    transition: all .5s ease;
+    overflow: hidden;
+} */
+
+.infoTitleCollapse button {
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+}
+
+.infoTitleCollapse:hover,
+.infoTitleCollapse button:hover {
+    cursor: pointer;
+    filter: saturate(600%);
+}

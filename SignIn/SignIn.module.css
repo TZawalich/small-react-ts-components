@@ -1,0 +1,70 @@
+.signinFormHolder{
+    display: block;
+    background-color: #cfcffd;
+    padding: 2rem;
+    border: 2px solid blue;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 4rem auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px #333;
+}
+
+.signinFormHolder Form{
+    text-align: left;
+}
+
+.signinFormHolder input{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.submitButton{
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: .5rem 3rem;
+    border: 2px solid blue;
+    border-radius: 4px;
+    color: #fff;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 1.1rem
+}
+
+.submitButton:hover{
+    background-color: rgb(0, 0, 129);
+}
+
+.falseLink{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem 0;
+    display: inline-block;
+}
+
+.falseLink:hover{
+    color: red;
+}
+
+.errorInput{
+    border: 2px solid red;
+}
+
+.errorInput::placeholder{
+    color: red;
+    opacity: 1;
+}
+
+.errorMessage{
+    color: red;
+    font-weight: bold;
+}
